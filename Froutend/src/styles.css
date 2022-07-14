@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.question {
+  text-align: center;
+}
+.allques {
+  min-height: 140px;
+  border: 1px solid;
+  min-width: 200px;
+  margin: 60px;
+  padding: 15px;
+}
+.ans {
+  background-color: beige;
+  padding: 10px;
+  border: 1px solid;
+  margin: 15px;
+  position: relative;
+  min-height: 80px;
+}
+.ansuser {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-weight: 500;
+}
+.ansa {
+  text-align: left;
+}
+.qme {
+  text-align: left;
+  padding: 20px;
+  background-color: #9ae1bf;
+  border-radius: 10px;
+  position: relative;
+  min-height: 100px;
+  max-height: 250px;
+}
+h6.qus {
+  position: absolute;
+  left: 20px;
+  bottom: -5px;
+}
+button.qansw {
+  position: absolute;
+  right: -15px;
+  bottom: -10px;
+}
+.domans {
+  width: 100%;
+  height: 100%;
+  background: #5c595987;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+.doma {
+  width: 500px;
+  height: 500px;
+  background: aliceblue;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 75px;
+  position: relative;
+  padding: 20px;
+}
+button.anscls {
+  position: absolute;
+  right: 10px;
+  margin: -35px;
+}
+.ansmain {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.qcbox {
+  display: flex;
+  flex-direction: column-reverse;
+}
